@@ -1,0 +1,30 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-weight: bolder;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    width: 50%;
+    height: 30%;
+    background-color: blue;
+    margin-bottom: 20px;
+}
+.block {
+    width: 10%;
+    height: 10%;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+.container span{
+    float: right;
+    margin: 20px;
+}
+.block.stroked{
+    border-style: solid;
+    border-color: black;
+    border-width: 5px ;
+}
